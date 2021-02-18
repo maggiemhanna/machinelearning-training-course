@@ -31,6 +31,7 @@ Here is the outline of the training:
                 * Non-invertibility
                 * Computationally expansive
             * Gradient Descent
+            * Batch, Mini Batch & Stochastic Gradient Descent
                 
 * Practical Aspects of Machine Learning
     * Data Splitting
@@ -44,14 +45,24 @@ Here is the outline of the training:
         * Learning Rate Decay
     * Cost Functions & Optimization Techniques 
     * Regression and Classification Evaluation Metrics 
-        * RMSE, RSquared ...
-        * Confusion Matrix, Accuracy, Precision, Recall ...
+        * MSE, RMSE, MAE, RSquared ...
+        * Confusion Matrix, Accuracy, Precision, Recall, F1score ...
         * ROC, AUC
         * Error metrics for skewed classes
     * Hyperparameters tuning
+        * Grid Search
+        * Random Search
     * Feature Representation & Engineering
+        * Data Leakage
+        * Missing Values Imputation
         * Numerical Features
+            * Normalization
+            * Log Scaling
+            * Bucketing
         * Categorical Features
+            * Label encoding 
+            * One hot encoding
+        * Outliers
         * Images (coming soon)
         * Text (coming soon)
         
@@ -60,19 +71,20 @@ Here is the outline of the training:
         * Multiple Features
         * Features and Polynomial regression
         * Gradient descent for multiple variables
+    * Polynomial Regression
     * Lasso Regression (L1 regularization)
     * Ridge Regression (L2 regularization)
     * Elastic Net Regression 
     * Decision Trees Regression
     
-* Classification (1j)
+* Classification
     * Logistic Regression
         * Decision Boundary
         * Cost Function
     * Multiclass Classification
         * One-vs-all
         * Multinomial classification
-    * Support Vector Machines
+    * Support Vector Machines (coming soon)
     * Decision Trees
     * Ensemble  Methods (Bagging, Boosting, Stacking). 
         * Bagged Trees
